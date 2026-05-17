@@ -59,3 +59,7 @@ Run the automated test suite with:
 ```bash
 pytest
 ```
+
+## Continuous integration
+
+This project includes a GitHub Actions workflow that runs `pytest` automatically on every push and pull request.
