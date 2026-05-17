@@ -23,7 +23,6 @@ OPERATORS: dict[type[ast.AST], object] = {
     ast.Pow: operator.pow,
     ast.Mod: operator.mod,
     ast.USub: operator.neg,
-    ast.UAdd: operator.pos,
 }
 
 
